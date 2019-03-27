@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import User from './User';
 import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
+import Router from './router.js';
+import ResumeDetail from './pages/ResumeDetail/index.js';
+import Edit from './pages/edit/index.js';
+import Head from './components/head/index.js';
+import RObot from './demo.js';
+ReactDOM.render(<Router/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -1,0 +1,60 @@
+const menuList = [
+    {
+        title:'首页',
+        key:'user/home'
+    },
+    {
+        title:'人才库列表',
+        key:'user/ui',
+        children:[
+            {
+                title:'按钮',
+                key:'user/ui/buttons',
+            },
+            {
+                title:'弹框',
+                key:'user/ui/modals',
+            },
+            {
+                title:'Loading',
+                key:'user/ui/loadings',
+            },
+            {
+                title:'通知提醒',
+                key:'user/ui/notification',
+            },
+            {
+                title:'全局Message',
+                key:'user/ui/messages',
+            },
+            {
+                title:'Tab页签',
+                key:'user/ui/tabs',
+            },
+            {
+                title:'图片画廊',
+                key:'user/ui/gallery',
+            },
+            {
+                title:'轮播图',
+                key:'user/ui/carousel',
+            }
+        ]
+    },
+    {
+        title:'人才库分析',
+        key:'user/form',
+        children:[
+            {
+                title:'登录',
+                key:'user/form/login',
+            },
+            {
+                title:'注册',
+                key:'user/form/reg',
+            }
+        ]
+    
+    
+];
+export default menuList;

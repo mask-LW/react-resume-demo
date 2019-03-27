@@ -1,0 +1,135 @@
+.chat{
+  		height:400px;
+  		background-color:#444446;
+  	 .robot{
+      		height:60px;
+      		width:600px;
+      		border-top-left-radius:0.5em;
+      		border-top-right-radius:0.5em;
+      		border: 1px solid #444446;
+      		background-color: #7dab97;
+          
+      		.img{
+      			width:48px;
+      			height:48px;
+            background-image:url(../../robot.jpeg);
+            border-radius:30px;
+            margin: 5px 30px 5px 30px;
+            float:left; 
+      			
+      		}
+      		.desc{
+            width:350px;
+      			font-size: 14px;
+      			color:#0a0a0a;
+      			margin:15px 5px 0px 0px;
+            float:left; 
+      		}
+	     }
+    	.contact{
+    		 width:599px;
+    		 height: 50px;
+    		 border-bottom-left-radius:0.5em;
+         border-bottom-right-radius:0.5em;
+    		 background-color:#fff;
+    		 border: 1px solid #fff;
+         .input{
+                overflow: auto;
+                resize: vertical;
+                height: 30px;
+                width:400px;
+                border: 0;
+                margin: 10px 30px 10px 50px;
+                autofocus:false;
+         }
+         .send{
+            float: right;
+         }
+         .button{
+            margin: 10px 20px 10px 10px;
+            border-radius:30px;
+            border: 1px solid transparent;  
+            outline: none;
+         }
+    	}
+
+    	.window{
+    		 width:600px;
+    		 height: 250px;
+    		 overflow-y: scroll;
+          overflow-x: hidden;
+    		 background-color:#19939333;
+    		 border: 1px solid #444446;
+         .contactleft{
+               .leftAva{
+               width:51px;
+               height:52px;
+                border: 1px solid #d5e7e8;
+                float:left;
+                margin: 10px;
+                background-image:url(../../robot.jpeg);
+                border-radius:30px;
+              }
+         .ballonleft{
+              height: 52px;
+              width: 300px;
+              border: 1px solid #d5e7e8;
+              margin: 10px;
+              line-height: 45px;
+              color: #0AD5C1;
+              background-color: #19939333;
+              float:left;
+             padding-left: 10px;
+                 &:after{
+                        position: absolute;
+                        content: '';
+                        left:64px;
+                        top: 22px;
+                        border-top: 15px solid #d5e7e8;
+                        border-left: 17px solid transparent;
+                        border-right: 0px solid transparent;
+                }
+              
+            }
+         }
+         .contactright{
+              .rightAva{
+               width:53px;
+               height:52px;
+                border: 1px solid #d5e7e8;
+                margin: 10px 10px 10px 10px;
+                float:right;
+                 border-radius:30px;
+                 background-image:url(../../robot1.jpeg);
+              }
+              .ballonright{
+                height: 52px;
+                width: 300px;
+                border: 1px solid #d5e7e8;
+                margin: 10px;
+                line-height: 45px;
+                color: #0AD5C1;
+                background-color: #19939333;
+                float:right;
+                padding-left: 10px;
+                 &:after{
+                       position: absolute;
+                        content: '';
+                        right: 66px;
+                        top: 22px;
+                        border-top: 15px solid #d5e7e8;
+                        border-left: 0px solid transparent;
+                        border-right: 17px solid transparent;
+                }
+            }
+          }
+           
+    
+
+	    }
+}
+
+	
+
+
+
